@@ -41,6 +41,10 @@ img {
   height: auto;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -60,7 +64,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px solid tomato;
+  outlin: 2px solid tomato;
 
   margin-left: auto;
   margin-right: auto;
@@ -184,7 +188,8 @@ span {
 
 .hero {
   text-align: center;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: var(--hero-bkg-color);
 }
 
@@ -214,6 +219,11 @@ span {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
+}
+
+.section-special {
+  padding-top: 89px;
+  padding-bottom: 0px;
 }
 
 .visually-hidden {
@@ -265,6 +275,17 @@ span {
 }
 
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.section-team {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -347,6 +368,7 @@ span {
   cursor: pointer;
   list-style: none;
   justify-content: center;
+  padding: 6px 22px;
 }
 
 .button-secondery {
@@ -358,7 +380,7 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-
+  padding: 6px 22px;
   cursor: pointer;
   list-style: none;
 }
@@ -406,10 +428,12 @@ span {
 .footer {
   background-color: var(--hero-bkg-color);
   text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .pre-footer {
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 .footer-logo {
@@ -421,14 +445,13 @@ span {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
-  padding-top: 60px;
-  padding-bottom: 20px;
   display: block;
+  padding-bottom: 20px;
   align-items: flex-start;
 }
 
 .list-adress:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address {
