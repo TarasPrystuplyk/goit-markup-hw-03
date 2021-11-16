@@ -48,6 +48,7 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  /* outline: 1px solid tomato; */
 }
 
 .list {
@@ -64,7 +65,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 
-  outlin: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 
   margin-left: auto;
   margin-right: auto;
@@ -267,6 +268,10 @@ span {
 .feature-list {
   list-style: none;
   display: flex;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .item-special {
@@ -284,6 +289,17 @@ span {
   margin-bottom: 50px;
 }
 
+.container-team {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* outline: 1px solid tomato; */
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .section-team {
   font-family: Roboto;
   font-weight: 700;
@@ -293,6 +309,18 @@ span {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 50px;
+  /* outline: 1px solid tomato; */
+}
+
+.container-about {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* outline: 1px solid tomato; */
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-list {
@@ -310,13 +338,14 @@ span {
   list-style: none;
   display: flex;
   margin-right: -30px;
-  flex-wrap: wrap;
+  flex-wrap: wra;
 }
 
 .team-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
   margin-right: 30px;
 }
+
 .team-content {
   padding-top: 30px;
 }
